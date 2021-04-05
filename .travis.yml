@@ -6,8 +6,8 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - python3 manage.py makemigrations
-  - python3 manage.py migrate
+  - python3 abstain/manage.py makemigrations
+  - python3 abstain/manage.py migrate
 
 notifications:
   email:
