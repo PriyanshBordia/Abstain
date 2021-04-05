@@ -88,6 +88,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     },
 
+    'development': {
         'ENGINE': env('DEV_DB_ENGINE'),
         'NAME': env('DEV_DB_NAME'),
         'USER': env('DEV_DB_USER'),
