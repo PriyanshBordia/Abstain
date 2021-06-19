@@ -28,6 +28,6 @@ hs_err_pid*
 #Vscode settings
 .vscode
 
-venv/
+venv
 
 .DS_Store
