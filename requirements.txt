@@ -20,7 +20,7 @@ requests==2.31.0
 six==1.15.0
 sqlparse==0.4.4
 toml==0.10.2
-urllib3==1.26.17
+urllib3==1.26.18
 whitenoise==5.2.0
 yamllint==1.26.0
 setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
